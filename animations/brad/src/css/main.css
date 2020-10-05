@@ -1,0 +1,43 @@
+body {
+    background: #222;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    position: relative;
+    animation: animate1 5s forwards ease-in;
+}
+
+@keyframes animate1 {
+    25% {
+        top: 0;
+        left: 300px;
+        background: rgba(177, 25, 119, 0.246);
+        width: 50%;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background: rgba(222, 34, 215, 0.39);
+        border-radius: 12px;
+    }
+    75%{
+        top: 200px;
+        left: 0;
+        width: 50%;
+        background: rgba(146, 45, 133, 0.671);
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background: crimson;
+        border-radius: 12px;
+    }
+
+}
+
+
+
